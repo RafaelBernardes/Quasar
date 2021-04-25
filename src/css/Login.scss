@@ -1,0 +1,41 @@
+.center{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ACCBE1;
+  background: url("../assets/darkwoods.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.85;
+}
+
+.card
+{
+  width: 350px;
+  height: 380px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.logo
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 10;
+  padding: 1rem;
+  color: #efefef;
+  text-align: center;
+}
+
+
+
+
